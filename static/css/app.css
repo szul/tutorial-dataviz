@@ -1,0 +1,16 @@
+main {
+    margin: 3rem;
+}
+#radial {
+    width: 800px;
+    height: 600px;
+}
+.flotr-legend {
+    background-color: #fff;
+    border: 0px !important;
+}
+.flotr-legend table div
+, .flotr-legend tr div
+, .flotr-legend tr td div {
+    border: 0px !important;
+}
