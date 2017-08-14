@@ -1,0 +1,31 @@
+{
+  "name": "tutorial-dataviz",
+  "version": "1.0.0",
+  "description": "A collection of code used for front-end (JavaScript/TypeScript) data visualization tutorials.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szul/tutorial-dataviz.git"
+  },
+  "keywords": [
+    "javascript",
+    "d3",
+    "typescript",
+    "dataviz",
+    "data-visualization",
+    "flotr2"
+  ],
+  "author": "Michael Szul <michael@szul.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szul/tutorial-dataviz/issues"
+  },
+  "homepage": "https://github.com/szul/tutorial-dataviz#readme",
+  "dependencies": {
+    "flotr2": "^0.1.0",
+    "typescript": "^2.4.2"
+  }
+}
