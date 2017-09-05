@@ -1,9 +1,10 @@
 main {
     margin: 3rem;
 }
-#radial {
+.chart {
     width: 800px;
     height: 600px;
+    margin-top: 10rem;
 }
 .flotr-legend {
     background-color: #fff;
@@ -13,4 +14,5 @@ main {
 , .flotr-legend tr div
 , .flotr-legend tr td div {
     border: 0px !important;
+    border-color: #fff !important;
 }
