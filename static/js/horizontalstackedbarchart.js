@@ -18,7 +18,7 @@ var students = [
    ,[3, "Clark Kent"]
 ];
 
-graph = Flotr.draw(document.querySelector("#horizontalstacked"), [
+var graph = Flotr.draw(document.querySelector("#horizontalstacked"), [
         {
             data: completed,
             label: "Completed"

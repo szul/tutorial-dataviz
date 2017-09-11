@@ -24,7 +24,7 @@ for (i = 0; i < 8; i++) {
     d1.push(point);
 }
 
-Flotr.draw(
+var graph = Flotr.draw(
     document.querySelector("#horizontal"), [d1], {
         title: "Assessments completed in this block",
     bars: {
