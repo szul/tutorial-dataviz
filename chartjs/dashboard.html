@@ -6,21 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="javascript, typescript, data visualization, dataviz, flotr2" />
     <meta name="description" content="Example visualizations using the Flotr2 library." />
-    <title>Pie Chart with Flotr2 - Data Visualization Tutorials</title>
+    <title>Dashboard with Flotr2 - Data Visualization Tutorials</title>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic" />
     <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
     <link rel="stylesheet" href="../node_modules/milligram/dist/milligram.min.css" />
     <link rel="stylesheet" href="../static/css/app.css" />
-    <script type="text/javascript" src="../node_modules/flotr2/flotr2.js"></script>
+    <script type="text/javascript" src="../node_modules/chartjs/chart.js"></script>
   </head>
   <body>
     <main>
-      <h1>Pie Chart</h1>
-      <p>Medical students entrustability by medical school year.</p>
-      <div id="piechart" class="chart">
+      <h1>Dashboard</h1>
+      <p>Medical students entrustability.</p>
+      <div class="container">
+          <div class="row">
+              <div class="column">
+                <div id="stackedbarchart" class="chart">
+                </div>
+              </div>
+              <div class="column">
+                <div id="piechart" class="chart">
+                </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="column">
+                <div id="linechart" class="chart">
+                </div>
+              </div>
+          </div>
       </div>
     </main>
-    <script type="text/javascript" src="../static/js/flotr2/piechart.js"></script>
+    <script type="text/javascript" src="../static/js/dashboard.js"></script>
     <script type="text/javascript" src="../static/js/app.js"></script>
   </body>
 </html>

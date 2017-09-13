@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/szul/tutorial-dataviz#readme",
   "dependencies": {
+    "chartjs": "^0.3.24",
     "d3": "^4.10.2",
     "flotr2": "^0.1.0",
     "metronical.metron": "^2.2.16",
