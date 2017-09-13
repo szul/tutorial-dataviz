@@ -4,39 +4,39 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="javascript, typescript, data visualization, dataviz, flotr2" />
-    <meta name="description" content="Example visualizations using the Flotr2 library." />
-    <title>Dashboard with Flotr2 - Data Visualization Tutorials</title>
+    <meta name="keywords" content="javascript, typescript, data visualization, dataviz, chart.js" />
+    <meta name="description" content="Example visualizations using the Chart.js library." />
+    <title>Dashboard with Chart.js - Data Visualization Tutorials</title>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic" />
     <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css" />
     <link rel="stylesheet" href="../node_modules/milligram/dist/milligram.min.css" />
     <link rel="stylesheet" href="../static/css/app.css" />
-    <script type="text/javascript" src="../node_modules/chartjs/chart.js"></script>
+    <script type="text/javascript" src="../node_modules/chart.js/dist/Chart.js"></script>
   </head>
   <body>
     <main>
       <h1>Dashboard</h1>
-      <p>Medical students entrustability.</p>
+      <p>Medical students entrustability for <strong>Susie Smith</strong>.</p>
       <div class="container">
           <div class="row">
               <div class="column">
-                <div id="stackedbarchart" class="chart">
-                </div>
+                <canvas id="stackedbarchart" width="575" height="300">
+                </canvas>
               </div>
               <div class="column">
-                <div id="piechart" class="chart">
-                </div>
+                <canvas id="piechart" width="575" height="300">
+                </canvas>
               </div>
           </div>
           <div class="row">
               <div class="column">
-                <div id="linechart" class="chart">
-                </div>
+                <canvas id="linechart" width="800" height="200">
+                </canvas>
               </div>
           </div>
       </div>
     </main>
-    <script type="text/javascript" src="../static/js/dashboard.js"></script>
+    <script type="text/javascript" src="../static/js/chartjs/dashboard.js"></script>
     <script type="text/javascript" src="../static/js/app.js"></script>
   </body>
 </html>

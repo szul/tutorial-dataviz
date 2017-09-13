@@ -16,3 +16,6 @@ main {
     border: 0px !important;
     border-color: #fff !important;
 }
+.row {
+    margin-top: 8rem;
+}
